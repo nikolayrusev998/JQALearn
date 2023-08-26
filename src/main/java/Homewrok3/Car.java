@@ -13,7 +13,7 @@ public class Car {
         engineFuelOperationSystem = newEngineFuelOperationSystem;
     }
 
-    
+
 
     public void useFuel(double fuel) {
         if (fuel <= freeFuel) {
