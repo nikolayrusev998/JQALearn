@@ -1,4 +1,4 @@
-package Homewrok3;
+package Homework3;
 
 public class CarPerson {
     public static void main(String[] args) {
