@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f92fb0c-5cb4-4bf4-be72-ef01735e4199" name="Changes" comment="Homework4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework6/AnimalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework6/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework6/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework6/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="2f92fb0c-5cb4-4bf4-be72-ef01735e4199" name="Changes" comment="Homework6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/DemoPpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Homewrok3/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Homewrok3/CarPerson.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,24 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;java.suggest.annotation.dependency&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Niko/IdeaProjects/JQALearn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "ignore_missing_gitignore": "true",
+    "java.suggest.annotation.dependency": "false",
+    "last_opened_file_path": "C:/Users/Niko/IdeaProjects/JQALearn",
+    "settings.editor.selected.configurable": "build.tools"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Niko\IdeaProjects\JQALearn\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnimalDemo">
+  <component name="RunManager" selected="Application.DemoPpl">
     <configuration name="AnimalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework6.AnimalDemo" />
       <module name="JQALearn" />
@@ -105,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework2.Task05" />
+    <configuration name="DemoPpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework5.DemoPpl" />
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework2.*" />
+          <option name="PATTERN" value="Homework5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoPpl" />
         <item itemvalue="Application.AnimalDemo" />
         <item itemvalue="Application.ComputerPrices" />
         <item itemvalue="Application.CarPerson" />
         <item itemvalue="Application.Task06" />
-        <item itemvalue="Application.Task05" />
       </list>
     </recent_temporary>
   </component>
@@ -230,13 +228,22 @@
       <option name="project" value="LOCAL" />
       <updated>1693662334995</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Homework6">
+      <option name="closed" value="true" />
+      <created>1694351234637</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694351234637</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework1" />
     <MESSAGE value="Homework2" />
     <MESSAGE value="Homework4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework4" />
+    <MESSAGE value="Homework6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework6" />
   </component>
 </project>
