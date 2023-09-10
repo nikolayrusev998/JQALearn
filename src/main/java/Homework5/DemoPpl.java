@@ -16,6 +16,7 @@ public class DemoPpl {
         people[9] = new Person("Chovek", 22, true);
 
 
+
         for (Person person : people) {
             if (person instanceof Student) {
                 ((Student) person).showStudentInfo();
