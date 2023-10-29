@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f92fb0c-5cb4-4bf4-be72-ef01735e4199" name="Changes" comment="Homework6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/DemoPpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/Student.java" afterDir="false" />
+    <list default="true" id="2f92fb0c-5cb4-4bf4-be72-ef01735e4199" name="Changes" comment="Homework5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework8/DemoQA_TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,10 @@
     "ignore.virus.scanning.warn.message": "true",
     "ignore_missing_gitignore": "true",
     "java.suggest.annotation.dependency": "false",
-    "last_opened_file_path": "C:/Users/Niko/IdeaProjects/JQALearn",
+    "last_opened_file_path": "C:/Users/Niko/Downloads/selenium-server-standalone-3.2.0.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
@@ -63,7 +64,7 @@
       <recent name="C:\Users\Niko\IdeaProjects\JQALearn\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoPpl">
+  <component name="RunManager" selected="Application.DemoQA_TestClass">
     <configuration name="AnimalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework6.AnimalDemo" />
       <module name="JQALearn" />
@@ -116,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework2.Task06" />
+    <configuration name="DemoQA_TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework8.DemoQA_TestClass" />
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework2.*" />
+          <option name="PATTERN" value="Homework8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoQA_TestClass" />
         <item itemvalue="Application.DemoPpl" />
         <item itemvalue="Application.AnimalDemo" />
         <item itemvalue="Application.ComputerPrices" />
         <item itemvalue="Application.CarPerson" />
-        <item itemvalue="Application.Task06" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +237,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694351234637</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Homework6">
+      <option name="closed" value="true" />
+      <created>1694355780023</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694355780023</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Homework5">
+      <option name="closed" value="true" />
+      <created>1694355792507</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694355792507</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -244,6 +261,7 @@
     <MESSAGE value="Homework2" />
     <MESSAGE value="Homework4" />
     <MESSAGE value="Homework6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework6" />
+    <MESSAGE value="Homework5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework5" />
   </component>
 </project>
