@@ -21,7 +21,7 @@ public class HelperClass {
     @Before
     public  void setDriver() {
 
-        String browser = "chrome";
+        String browser = "firefox";
         if (browser.equalsIgnoreCase("chrome")) {
             System.out.println("Executing on Chrome");
             WebDriverManager.chromedriver().setup();
@@ -33,7 +33,10 @@ public class HelperClass {
         } else if (browser.equalsIgnoreCase("firefox")) {
             System.out.println("Executing on Firefox");
             WebDriverManager.firefoxdriver().setup();
-            WebDriver driver = new FirefoxDriver();
+            DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+            capabilities.setCapability("marionette", true);
+            WebDriver driver = new FirefoxDriver(capabilities);
+
             driver.manage().window().maximize();
             driver.manage().deleteAllCookies();
             driver.get("https://demoqa.com/text-box");
