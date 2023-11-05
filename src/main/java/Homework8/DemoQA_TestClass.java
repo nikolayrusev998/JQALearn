@@ -9,9 +9,11 @@ public class DemoQA_TestClass {
 
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver","C:\\chromedriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\browser_drivers\\chromedriver.exe");
+
 
         WebDriver driver = new ChromeDriver();
+
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
 

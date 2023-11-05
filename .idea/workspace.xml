@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f92fb0c-5cb4-4bf4-be72-ef01735e4199" name="Changes" comment="Homework5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework8/DemoQA_TestClass.java" afterDir="false" />
+    <list default="true" id="2f92fb0c-5cb4-4bf4-be72-ef01735e4199" name="Changes" comment="Homework8">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework9/DemoQA_TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework9/HelperClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Homework8/DemoQA_TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework8/DemoQA_TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Homework8/DemoQA_TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Homework8/DemoQA_TestClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -53,7 +57,7 @@
     "ignore_missing_gitignore": "true",
     "java.suggest.annotation.dependency": "false",
     "last_opened_file_path": "C:/Users/Niko/Downloads/selenium-server-standalone-3.2.0.jar",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "build.tools"
@@ -64,13 +68,13 @@
       <recent name="C:\Users\Niko\IdeaProjects\JQALearn\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoQA_TestClass">
-    <configuration name="AnimalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework6.AnimalDemo" />
+  <component name="RunManager" selected="JUnit.DemoQA_TestClass">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework9.test" />
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework6.*" />
+          <option name="PATTERN" value="Homework9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,65 +82,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework3.CarPerson" />
+    <configuration name="DemoQA_TestClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework3.*" />
+          <option name="PATTERN" value="Homework9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Homework9" />
+      <option name="MAIN_CLASS_NAME" value="Homework9.DemoQA_TestClass" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerPrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework4.ComputerPrices" />
+    <configuration name="DemoQA_TestClass.IsEmailPresented" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework4.*" />
+          <option name="PATTERN" value="Homework9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Homework9" />
+      <option name="MAIN_CLASS_NAME" value="Homework9.DemoQA_TestClass" />
+      <option name="METHOD_NAME" value="IsEmailPresented" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoPpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework5.DemoPpl" />
+    <configuration name="DemoQA_TestClass.IsEveryInformationPresented" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework5.*" />
+          <option name="PATTERN" value="Homework9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Homework9" />
+      <option name="MAIN_CLASS_NAME" value="Homework9.DemoQA_TestClass" />
+      <option name="METHOD_NAME" value="IsEveryInformationPresented" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoQA_TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework8.DemoQA_TestClass" />
+    <configuration name="DemoQA_TestClass.IsNamePresented" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework8.*" />
+          <option name="PATTERN" value="Homework9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Homework9" />
+      <option name="MAIN_CLASS_NAME" value="Homework9.DemoQA_TestClass" />
+      <option name="METHOD_NAME" value="IsNamePresented" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoQA_TestClass" />
-        <item itemvalue="Application.DemoPpl" />
-        <item itemvalue="Application.AnimalDemo" />
-        <item itemvalue="Application.ComputerPrices" />
-        <item itemvalue="Application.CarPerson" />
+        <item itemvalue="JUnit.DemoQA_TestClass" />
+        <item itemvalue="JUnit.DemoQA_TestClass.IsNamePresented" />
+        <item itemvalue="JUnit.DemoQA_TestClass.IsEveryInformationPresented" />
+        <item itemvalue="JUnit.DemoQA_TestClass.IsEmailPresented" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +268,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694355792507</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Homework8">
+      <option name="closed" value="true" />
+      <created>1698579717877</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698579717877</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Homework8">
+      <option name="closed" value="true" />
+      <created>1698579760059</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698579760059</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -262,6 +293,7 @@
     <MESSAGE value="Homework4" />
     <MESSAGE value="Homework6" />
     <MESSAGE value="Homework5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework5" />
+    <MESSAGE value="Homework8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework8" />
   </component>
 </project>
