@@ -8,8 +8,8 @@ import org.junit.Test;
 public class DemoQATests extends Hooks {
 
 
-    private HomePage homePage;
-    private SecondPage sndPage;
+    private HomePage homePage; // this will run with Selenium 4 (page factory)
+    private SecondPage sndPage; // This will run with Selenium 3
 
 
 
