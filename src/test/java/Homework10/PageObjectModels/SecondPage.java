@@ -26,6 +26,7 @@ public class SecondPage {
 
     public void isNamePresented(){
 
+
         assertTrue(driver.findElement(namePresented).isDisplayed());
 
     }
