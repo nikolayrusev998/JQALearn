@@ -21,7 +21,7 @@ public class HelperClass {
     @Before
     public  void setDriver() {
 
-        String browser = "firefox";
+        String browser = "chrome";
         if (browser.equalsIgnoreCase("chrome")) {
             System.out.println("Executing on Chrome");
             WebDriverManager.chromedriver().setup();
@@ -33,9 +33,12 @@ public class HelperClass {
         } else if (browser.equalsIgnoreCase("firefox")) {
             System.out.println("Executing on Firefox");
             WebDriverManager.firefoxdriver().setup();
-            DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+
+
+
+           /* DesiredCapabilities capabilities = DesiredCapabilities.firefox();
             capabilities.setCapability("marionette", true);
-            WebDriver driver = new FirefoxDriver(capabilities);
+           // WebDriver driver = new FirefoxDriver(capabilities);*/
 
             driver.manage().window().maximize();
             driver.manage().deleteAllCookies();
@@ -55,7 +58,7 @@ public class HelperClass {
 
     @After
     public void teardown() {
-        ;
+
         driver.quit();
     }
 }
