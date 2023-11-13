@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f92fb0c-5cb4-4bf4-be72-ef01735e4199" name="Changes" comment="Homework9">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework10/PageObjectModels/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework10/PageObjectModels/SecondPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework10/Tests/DemoQATests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework10/helpers/BrowserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework10/helpers/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="2f92fb0c-5cb4-4bf4-be72-ef01735e4199" name="Changes" comment="Homework10">
       <change beforePath="$PROJECT_DIR$/src/test/java/Homework9/HelperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework9/HelperClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +66,7 @@
       <recent name="C:\Users\Niko\IdeaProjects\JQALearn\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DemoQATests.IsEmailPresented">
+  <component name="RunManager" selected="JUnit.DemoQA_TestClass.IsEmailPresented">
     <configuration name="DemoQATests.IsEmailPresented" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JQALearn" />
       <extension name="coverage">
@@ -137,7 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoQA_TestClass.IsNamePresented" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoQA_TestClass.IsEmailPresented" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
@@ -147,7 +140,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Homework9" />
       <option name="MAIN_CLASS_NAME" value="Homework9.DemoQA_TestClass" />
-      <option name="METHOD_NAME" value="IsNamePresented" />
+      <option name="METHOD_NAME" value="IsEmailPresented" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DemoQA_TestClass.IsEmailPresented" />
         <item itemvalue="JUnit.DemoQATests.IsEmailPresented" />
         <item itemvalue="JUnit.DemoQATests.IsNamePresented" />
         <item itemvalue="JUnit.DemoQATests.IsNamePresented1" />
         <item itemvalue="JUnit.DemoQA_TestClass" />
-        <item itemvalue="JUnit.DemoQA_TestClass.IsNamePresented" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +301,31 @@
       <option name="project" value="LOCAL" />
       <updated>1699202364369</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Homework10">
+      <option name="closed" value="true" />
+      <created>1699871858078</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1699871858078</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Homework10">
+      <option name="closed" value="true" />
+      <created>1699871868201</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1699871868201</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Homework10">
+      <option name="closed" value="true" />
+      <created>1699872008710</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1699872008710</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -319,6 +336,7 @@
     <MESSAGE value="Homework5" />
     <MESSAGE value="Homework8" />
     <MESSAGE value="Homework9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework9" />
+    <MESSAGE value="Homework10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework10" />
   </component>
 </project>

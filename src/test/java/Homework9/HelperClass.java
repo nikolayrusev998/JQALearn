@@ -1,7 +1,6 @@
 package Homework9;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import junitparams.Parameters;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -19,7 +18,7 @@ public class HelperClass {
 
 
     @Before
-    public  void setDriver() {
+    public void setDriver() {
 
         String browser = "chrome";
         if (browser.equalsIgnoreCase("chrome")) {
@@ -30,19 +29,6 @@ public class HelperClass {
             driver.manage().deleteAllCookies();
             driver.get("https://demoqa.com/text-box");
 
-        } else if (browser.equalsIgnoreCase("firefox")) {
-            System.out.println("Executing on Firefox");
-            WebDriverManager.firefoxdriver().setup();
-
-
-
-           /* DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-            capabilities.setCapability("marionette", true);
-           // WebDriver driver = new FirefoxDriver(capabilities);*/
-
-            driver.manage().window().maximize();
-            driver.manage().deleteAllCookies();
-            driver.get("https://demoqa.com/text-box");
 
         } else if (browser.equalsIgnoreCase("edge")) {
             System.out.println("Executing on Firefox");
