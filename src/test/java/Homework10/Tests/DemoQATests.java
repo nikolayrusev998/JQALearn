@@ -30,6 +30,7 @@ public class DemoQATests extends Hooks {
 
         sndPage.fillFullName("Random");
         sndPage.clickButton();
+        sndPage.isNamePresented();
 
 
     }

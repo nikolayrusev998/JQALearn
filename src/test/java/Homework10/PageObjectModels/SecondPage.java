@@ -1,7 +1,10 @@
 package Homework10.PageObjectModels;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+import static org.junit.Assert.*;
 
 public class SecondPage {
     WebDriver driver;
@@ -19,6 +22,12 @@ public class SecondPage {
     }
     public void clickButton(){
         driver.findElement(submitBtn).click();
+    }
+
+    public void isNamePresented(){
+
+        assertTrue(driver.findElement(namePresented).isDisplayed());
+
     }
 
 }
