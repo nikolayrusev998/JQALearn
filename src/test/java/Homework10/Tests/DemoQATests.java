@@ -1,7 +1,7 @@
 package Homework10.Tests;
 
-import Homework10.PageObjectModels.HomePage;
-import Homework10.PageObjectModels.SecondPage;
+import Homework9.PageObjectModels.HomePage;
+import Homework9.PageObjectModels.SecondPage;
 import Homework10.helpers.Hooks;
 import org.junit.Test;
 

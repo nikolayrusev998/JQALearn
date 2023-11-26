@@ -51,9 +51,6 @@ public class DemoQa_TextBox {
     }
 
     public void clickSubmitButton() {
-
-        ExpectedConditions.visibilityOfElementLocated(submitButton);
-//        wait.until(ExpectedConditions.elementToBeClickable(submitButton));
         driver.findElement(submitButton).click();
 
 
@@ -66,9 +63,14 @@ public class DemoQa_TextBox {
 
     public void emailPresented() {
 
-        ExpectedConditions.visibilityOfElementLocated(emailPresented);
-       // wait.until(ExpectedConditions.visibilityOfElementLocated(emailPresented)).isDisplayed();
         assertTrue(driver.findElement(emailPresented).isDisplayed());
+    }
+
+    public void waitForLoginButton(){
+
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.elementToBeClickable(submitButton));
+
     }
 
 

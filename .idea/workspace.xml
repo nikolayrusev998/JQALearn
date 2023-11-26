@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f92fb0c-5cb4-4bf4-be72-ef01735e4199" name="Changes" comment="Homework10">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework11/Helpers/BrowserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework11/Helpers/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework11/PageObjectModels/DemoQa_TextBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework11/Tests/DemoQaTextBoxTests.java" afterDir="false" />
+    <list default="true" id="2f92fb0c-5cb4-4bf4-be72-ef01735e4199" name="Changes" comment="Homework11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework10/PageObjectModels/SecondPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework10/PageObjectModels/SecondPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Homework10/PageObjectModels/SecondPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Homework10/PageObjectModels/SecondPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Homework10/Tests/DemoQATests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Homework10/Tests/DemoQATests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework10/PageObjectModels/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework9/PageObjectModels/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework10/PageObjectModels/SecondPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework9/PageObjectModels/SecondPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework10/Tests/DemoQATests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework10/Tests/DemoQATests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework10/helpers/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework10/helpers/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework11/PageObjectModels/DemoQa_TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework11/PageObjectModels/DemoQa_TextBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework11/Tests/DemoQaTextBoxTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework11/Tests/DemoQaTextBoxTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <recent name="C:\Users\Niko\IdeaProjects\JQALearn\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DemoQaTextBoxTests">
+  <component name="RunManager" selected="JUnit.DemoQaTextBoxTests.IsEmailPresented">
     <configuration name="DemoQATests.IsNamePresented1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JQALearn" />
       <extension name="coverage">
@@ -156,9 +154,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DemoQaTextBoxTests" />
-        <item itemvalue="JUnit.DemoQaTextBoxTests.isNamePresented" />
         <item itemvalue="JUnit.DemoQaTextBoxTests.IsEmailPresented" />
+        <item itemvalue="JUnit.DemoQaTextBoxTests.isNamePresented" />
+        <item itemvalue="JUnit.DemoQaTextBoxTests" />
         <item itemvalue="JUnit.DemoQATests.IsNamePresented1" />
         <item itemvalue="JUnit.DemoQA_TestClass.IsEmailPresented" />
       </list>
@@ -365,7 +363,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699898372806</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Homework11">
+      <option name="closed" value="true" />
+      <created>1700318910230</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1700318910230</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Homework11">
+      <option name="closed" value="true" />
+      <created>1700318927278</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1700318927278</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -377,6 +391,7 @@
     <MESSAGE value="Homework8" />
     <MESSAGE value="Homework9" />
     <MESSAGE value="Homework10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework10" />
+    <MESSAGE value="Homework11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework11" />
   </component>
 </project>

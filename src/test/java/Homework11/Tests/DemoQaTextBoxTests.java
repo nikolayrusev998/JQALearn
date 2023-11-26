@@ -13,6 +13,7 @@ public class DemoQaTextBoxTests extends Hooks {
         textBoxPage = new DemoQa_TextBox(driver);
 
         textBoxPage.setFullNameTextField("Random Randomov");
+        textBoxPage.waitForLoginButton();
         textBoxPage.clickSubmitButton();
         textBoxPage.namePresented();
     }
@@ -22,6 +23,7 @@ public class DemoQaTextBoxTests extends Hooks {
         textBoxPage = new DemoQa_TextBox(driver);
 
         textBoxPage.setEmailTextField("randomrandomov@random.com");
+        textBoxPage.waitForLoginButton();
         textBoxPage.clickSubmitButton();
         textBoxPage.emailPresented();
 
