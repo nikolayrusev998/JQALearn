@@ -66,7 +66,7 @@ public class DemoQa_TextBox {
         assertTrue(driver.findElement(emailPresented).isDisplayed());
     }
 
-    public void waitForLoginButton(){
+    public void waitForSubmitButton(){
 
         WebDriverWait wait = new WebDriverWait(driver,(10));
         wait.until(ExpectedConditions.elementToBeClickable(submitButton));
